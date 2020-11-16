@@ -8,5 +8,5 @@ docker build -t apache-ab .
 ```
 
 ```bash
-docker run --rm ab -v 2 https://www.google.com.br
+docker run --rm apache-ab -v 2 https://www.google.com.br
 ```
