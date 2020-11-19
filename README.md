@@ -10,5 +10,7 @@ docker build -t apache-ab .
 ```bash
 docker run --rm apache-ab -v 2 https://www.google.com.br
 ```
-- -n: número de requisiçes
-- -c: número de concorrências
+|Opção|Descrição|
+|-----|-----|
+|-n|número de requisiçes|
+|-c|número de concorrências|
